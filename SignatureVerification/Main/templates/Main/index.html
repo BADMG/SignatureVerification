@@ -27,7 +27,7 @@
 
 
 			<div class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
-			<form method="post" class="text-center p-5", enctype="multipart/form-data">
+			<form action="{% url 'register' %}" method="post" class="text-center p-5", enctype="multipart/form-data">
 				<p class="h4 mb-4">Register</p>
                 {% csrf_token %}
                 {{ form.as_p }}
@@ -38,7 +38,7 @@
 
 
 			<div class="tab-pane fade" id="verify" role="tabpanel" aria-labelledby="verify-tab">
-				<form method="post" class="text-center p-5", enctype="multipart/form-data">
+				<form action="{% url 'verify' %}" method="post" class="text-center p-5", enctype="multipart/form-data">
 				<p class="h4 mb-4">Verify</p>
 				
                 {% csrf_token %}

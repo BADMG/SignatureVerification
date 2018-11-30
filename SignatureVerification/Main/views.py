@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, FormView
 from django.shortcuts import render, redirect
 from Main.forms import CustomerForm, VerificationForm
 from Main.models import CustomerDetails
@@ -35,11 +35,15 @@ class MainView(TemplateView):
         ans = model.predict(image)
         return ans
 
-    def get(self, request):
-        form = CustomerForm()
-        form2 = VerificationForm()
-        return render(request, self.template_name, {'form': form, 'form2': form2})
+    def get(self, request, *args, **kwargs):
+        question_form = CustomerForm(self.request.GET or None)
+        answer_form = VerificationForm(self.request.GET or None)
+        context = self.get_context_data(**kwargs)
+        context['answer_form'] = answer_form
+        context['question_form'] = question_form
+        return self.render_to_response(context)
 
+    '''
     def post(self, request):
         answer = 0
         if request.method == 'POST':
@@ -58,4 +62,47 @@ class MainView(TemplateView):
             'form2': form2,
             'answer': answer
         })
+    '''
+class CustomerFormView(FormView):
+    form_class = CustomerForm
+    template_name = 'Main/index.html'
+    success_url = '/Main'
+
+    def post(self, request, *args, **kwargs):
+        customer_form = self.form_class(request.POST)
+        verify_form = VerificationForm()
+        if customer_form.is_valid():
+            customer_form.save()
+            return self.render_to_response(
+                self.get_context_data(
+                    success=True
+                )
+            )
+        else:
+            return self.render_to_response(
+                self.get_context_data(
+                    question_form=customer_form),)
+
+class VerifyFormView(FormView):
+    form_class = VerificationForm
+    template_name = 'Main/index.html'
+    success_url = '/Main'
+
+    def post(self, request, *args, **kwargs):
+        verify_form = self.form_class(request.POST)
+        customer_form = CustomerForm()
+        if verify_form.is_valid():
+            verify_form.save()
+            return self.render_to_response(
+                self.get_context_data(
+                    success=True
+                )
+            )
+        else:
+            return self.render_to_response(
+                self.get_context_data(
+                    answer_form=verify_form,
+                    question_form=customer_form
+                )
+            )
 
