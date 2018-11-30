@@ -24,21 +24,19 @@
 			</li>
 		</ul>
 		<div class="tab-content" id="myTabContent">
-			<div class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
-			<form class="text-center p-5">
-				<p class="h4 mb-4">Register</p>
 
-				<input type="text" id="textInput" class="form-control mb-4" placeholder="Customer Name">
-				
-				<input type="text" id="textInput" class="form-control mb-4" placeholder="Customer ID">
-		
-				<div class="form-group">
-					<!--<label for="exampleFormControlFile1">Signature to be verified</label>-->
-					<input type="file" class="form-control-file" id="exampleFormControlFile1" multiple>
-				</div>
-				<button class="btn btn-info btn-block my-4" type="submit">Register</button>
+
+			<div class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
+			<form method="post" class="text-center p-5", enctype="multipart/form-data">
+				<p class="h4 mb-4">Register</p>
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn btn-info btn-block my-4" type="submit">Register</button>
+
 			</form>
 			</div>
+
+
 			<div class="tab-pane fade" id="verify" role="tabpanel" aria-labelledby="verify-tab">
 				<form class="text-center p-5">
 				<p class="h4 mb-4">Verify</p>
