@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db6f01a-e155-4775-ae3b-de1fb1c9b2f8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SignatureVerification/Main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/Main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/Main/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/Main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/Main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignatureVerification/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/media/DDS2/tt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/media/image/tt.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +23,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="-7">
               <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -34,19 +34,23 @@
       </file>
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/admin.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7" />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7" />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="934">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -57,7 +61,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="-7">
               <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
             </state>
           </provider>
@@ -66,17 +70,17 @@
       <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="81">
               <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+            <state relative-caret-position="286">
+              <caret line="40" column="91" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -84,8 +88,8 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="540">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -93,23 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="e#645#677#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -133,11 +125,11 @@
         <option value="$PROJECT_DIR$/SignatureVerification/Main/migrations/urls.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/Main/urls.py" />
-        <option value="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" />
-        <option value="$PROJECT_DIR$/SignatureVerification/Main/forms.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" />
-        <option value="$PROJECT_DIR$/SignatureVerification/Main/views.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/Main/models.py" />
+        <option value="$PROJECT_DIR$/SignatureVerification/Main/forms.py" />
+        <option value="$PROJECT_DIR$/SignatureVerification/Main/views.py" />
+        <option value="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" />
       </list>
     </option>
   </component>
@@ -182,7 +174,14 @@
               <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
               <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="D23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignatureVerification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
+              <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="D24" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SignatureVerification" type="b2602c69:ProjectViewProjectNode" />
@@ -196,6 +195,9 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -276,14 +278,18 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-7">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -291,31 +297,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/media/D34/tt.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="81">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="-7">
           <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+        <state relative-caret-position="405">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="540">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -324,18 +333,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="934">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py">
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="286">
+          <caret line="40" column="91" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="91" />
         </state>
       </provider>
     </entry>
