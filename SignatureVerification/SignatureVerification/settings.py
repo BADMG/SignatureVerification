@@ -50,11 +50,16 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'SignatureVerification.urls'
+STATIC_URL = '/static/'
+PROJECT_PATH = os.path.abspath((os.path.dirname(__name__)))
+STATICFILES_DIRS = [
+    os.path.join(PROJECT_PATH, 'static')
+]
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["Main/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

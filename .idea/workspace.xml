@@ -1,7 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7db6f01a-e155-4775-ae3b-de1fb1c9b2f8" name="Default" comment="" />
+    <list default="true" id="7db6f01a-e155-4775-ae3b-de1fb1c9b2f8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/addons/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/addons/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.lite.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/modules/animations-extended.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/modules/animations-extended.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/lightbox/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/lightbox/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/lightbox/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/svg/arrow_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/img/svg/arrow_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/addons/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/addons/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/mdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/enhanced-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/forms-free.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/scrolling-navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/velocity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/modules/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/_custom-styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/_custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/addons/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_masks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_waves.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/core/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_animations-basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_carousels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_depreciated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_msc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_steppers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/modules/animations-extended/_module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/free/modules/animations-extended/animations-extended.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/mdb.lite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignatureVerification/static/scss/mdb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/addons/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/addons/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/mdb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/mdb.lite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/mdb.lite.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/modules/animations-extended.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/modules/animations-extended.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/lightbox/default-skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/lightbox/default-skin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/lightbox/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/overlays/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/svg/arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/img/svg/arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/addons/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/addons/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/mdb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/enhanced-modals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/forms-free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/scrolling-navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/velocity.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/modules/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/_custom-styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/_custom-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/addons/_datatables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_masks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/_waves.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/core/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_animations-basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_carousels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_depreciated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_loader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_msc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_steppers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/modules/animations-extended/_module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/mdb.lite.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/static/scss/mdb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/Main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,23 +216,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#645#677#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -35,13 +228,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="e#645#677#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +298,10 @@
         <option value="$PROJECT_DIR$/SignatureVerification/SignatureVerification/views.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/Main/migrations/urls.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/Main/urls.py" />
-        <option value="$PROJECT_DIR$/SignatureVerification/Main/views.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py" />
+        <option value="$PROJECT_DIR$/SignatureVerification/Main/views.py" />
+        <option value="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" />
+        <option value="$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" />
       </list>
     </option>
   </component>
@@ -105,7 +340,15 @@
               <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
               <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignatureVerification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
+              <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SignatureVerification" type="b2602c69:ProjectViewProjectNode" />
@@ -123,6 +366,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\SignatureVerification\SignatureVerification\Main" />
+      <recent name="E:\SignatureVerification\SignatureVerification" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -152,15 +396,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -185,31 +430,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#645#677#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="680">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
         </state>
       </provider>
     </entry>
