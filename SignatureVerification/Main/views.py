@@ -6,16 +6,12 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from Main.forms import CustomerForm, VerificationForm
 from Main.models import CustomerDetails, VerificationDetails
-from PIL import Image
 import numpy as np
-from keras.models import model_from_json
 from keras import backend as K
 import keras.models as models
 import tensorflow as tf
 import keras.layers as layers
-import json
 import cv2
-import os
 
 
 class MainView(TemplateView):
@@ -99,3 +95,4 @@ class MainView(TemplateView):
             'form2': form2,
             'answer': answer
         })
+    
