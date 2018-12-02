@@ -1,5 +1,0 @@
-{
-	"deploy": {
-		"module":"SignatureVerification.wsgi:application"
-	}
-}

@@ -11,8 +11,7 @@ from keras import backend as K
 import keras.models as models
 import tensorflow as tf
 import keras.layers as layers
-from PIL import Image
-
+import cv2
 
 class MainView(TemplateView):
     template_name = 'Main/index.html'
@@ -44,8 +43,9 @@ class MainView(TemplateView):
         return loaded_model
 
     def create_img(self, path):
-        img = Image.open(path).convert('L')
-        img = np.array(img)
+        img = cv2.imread(path)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        img = cv2.resize(img, (300, 150))
         img = img.reshape(1, 300, 150, 1)
         img = img / 255.
         return img
@@ -64,13 +64,17 @@ class MainView(TemplateView):
 
     def post(self, request):
         answer = -1
+        reg_code = False
         if request.method == 'POST':
             form = CustomerForm(request.POST, request.FILES)
             form2 = VerificationForm(request.POST, request.FILES)
             if 'register' in request.POST:
                 if form.is_valid():
                     form.save()
+                    form = CustomerForm()
+                    reg_code = True
                     return render(request, self.template_name, {
+                        'reg_code': reg_code,
                         'form': form,
                         'form2': form2
                     })
@@ -82,6 +86,10 @@ class MainView(TemplateView):
                     vector_image = self.predict(VerificationDetails.objects.get(c_id=form2.cleaned_data['c_id']).image.path)
                     vector_database = self.predict(CustomerDetails.objects.get(c_id=form2.cleaned_data['c_id']).image.path)
                     answer = np.sum(np.square(vector_image - vector_database))
+                    if answer<3:
+                        answer = "The signature is real."
+                    else:
+                        answer = "The signature is forged."
                     K.clear_session()
                     return render(request, "Main/prediction.html", {
                         'answer': answer
