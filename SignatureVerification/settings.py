@@ -59,7 +59,13 @@ PROJECT_PATH = os.path.abspath((os.path.dirname(__name__)))
 #STATICFILES_DIRS = [
 #    os.path.join(PROJECT_PATH, 'static')
 #]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
 
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
 
