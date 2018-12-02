@@ -25,7 +25,7 @@ SECRET_KEY = '_vxe1@q(n^(9i42n4m&pnd=6rh_o!y25p5a!!mqklks$8xi()8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['app_7c7a9178-80fb-4396-aedc-2346a591a6d6.cleverapps.io', 'localhost', ]
 
 
 # Application definition

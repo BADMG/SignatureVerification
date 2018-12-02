@@ -95,4 +95,3 @@ class MainView(TemplateView):
             'form2': form2,
             'answer': answer
         })
-    
