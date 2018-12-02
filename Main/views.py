@@ -44,7 +44,7 @@ class MainView(TemplateView):
         return loaded_model
 
     def create_img(self, path):
-        img = Image.open(path).convert('RGB')
+        img = Image.open(path).convert('L')
         img = np.array(img)
         img = img.reshape(1, 300, 150, 1)
         img = img / 255.

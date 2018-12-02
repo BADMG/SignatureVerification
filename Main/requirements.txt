@@ -1,6 +1,0 @@
-Keras==2.2.0
-Django==2.1
-numpy==1.14.3
-tensorflow_gpu==1.10.0
-Pillow==5.3.0
-tensorflow==1.12.0
