@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import dj_database_url
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,9 +25,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_vxe1@q(n^(9i42n4m&pnd=6rh_o!y25p5a!!mqklks$8xi()8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = FALSE
 
-ALLOWED_HOSTS = ['app_7c7a9178-80fb-4396-aedc-2346a591a6d6.cleverapps.io', 'localhost', ]
+ALLOWED_HOSTS = ['*', ]
+
 
 
 # Application definition
@@ -82,11 +85,11 @@ WSGI_APPLICATION = 'SignatureVerification.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default': dj_database_url.config(
+        default='sqlite:////{0}'.format(os.path.join(BASE_DIR, 'db.sqlite3'))
+    )
 }
 
 

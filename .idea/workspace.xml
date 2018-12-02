@@ -2,129 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db6f01a-e155-4775-ae3b-de1fb1c9b2f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/migrations/0002_customerdetails_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/migrations/0003_auto_20181201_0038.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/migrations/0004_auto_20181201_1424.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/migrations/0005_auto_20181201_1439.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/templates/Main/prediction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/Main/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/01_R_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/addons/datatables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/addons/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.lite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.lite.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/mdb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/modules/animations-extended.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/modules/animations-extended.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/lightbox/default-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/lightbox/default-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/lightbox/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/overlays/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/svg/arrow_left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/img/svg/arrow_right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/addons/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/addons/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/mdb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/mdb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/enhanced-modals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/forms-free.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/scrolling-navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/velocity.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/waves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/modules/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/model.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/model2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/model_weights.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/_custom-styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/_custom-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/addons/_datatables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_helpers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_masks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/_waves.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/bootstrap/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/core/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_animations-basic.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_carousels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_depreciated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_dropdowns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_footers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_loader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_msc.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_navbars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_steppers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_switch.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/modules/animations-extended/_module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/mdb.lite.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignatureVerification/static/scss/mdb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -135,20 +15,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="boundfield.py" pinned="false" current-in-tab="false">
         <entry file="file://E:/Programs/Anaconda/Lib/site-packages/django/forms/boundfield.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2295">
               <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SignatureVerification/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+              <folding>
+                <element signature="e#320#329#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,6 +77,7 @@
         <option value="$PROJECT_DIR$/SignatureVerification/static/css/style.css" />
         <option value="$PROJECT_DIR$/SignatureVerification/Main/views.py" />
         <option value="$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" />
+        <option value="$PROJECT_DIR$/SignatureVerification/settings.py" />
       </list>
     </option>
   </component>
@@ -197,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,11 +103,10 @@
             <path>
               <item name="SignatureVerification" type="b2602c69:ProjectViewProjectNode" />
               <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
-              <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SignatureVerification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
               <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
               <item name="SignatureVerification" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -219,7 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,6 +153,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -283,51 +178,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/prediction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Programs/Anaconda/Lib/site-packages/django/forms/boundfield.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
@@ -335,81 +185,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/prediction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/prediction.html" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py" />
     <entry file="file://E:/Programs/Anaconda/Lib/site-packages/django/forms/boundfield.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
@@ -417,163 +198,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py">
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/prediction.html" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py" />
+    <entry file="file://E:/Programs/Anaconda/Lib/site-packages/django/forms/boundfield.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2295">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="61" column="51" lean-forward="true" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model.json" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/apps.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py" />
     <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/views.py" />
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/manage.py" />
     <entry file="file://$PROJECT_DIR$/SignatureVerification/media/D34/tt.png" />
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/prediction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/apps.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/admin.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model.json" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/urls.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/model2.json" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/prediction.html" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/templates/Main/index.html" />
     <entry file="file://$PROJECT_DIR$/SignatureVerification/media/D567/original_44_1.png" />
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/urls.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py" />
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py" />
     <entry file="file://E:/Programs/Anaconda/Lib/site-packages/django/forms/boundfield.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
@@ -581,44 +251,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/forms.py">
+    <entry file="file://$PROJECT_DIR$/Main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/Main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state>
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignatureVerification/SignatureVerification/settings.py">
+    <entry file="file://$PROJECT_DIR$/SignatureVerification/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="57" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="58" />
+        <state relative-caret-position="448">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+          <folding>
+            <element signature="e#320#329#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
