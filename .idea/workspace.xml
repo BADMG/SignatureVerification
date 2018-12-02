@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7db6f01a-e155-4775-ae3b-de1fb1c9b2f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignatureVerification/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SignatureVerification/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SignatureVerification/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            <state relative-caret-position="313">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="e#320#329#0" expanded="true" />
               </folding>
@@ -79,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1750" />
     <option name="height" value="1100" />
@@ -150,7 +150,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -260,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SignatureVerification/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        <state relative-caret-position="313">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="e#320#329#0" expanded="true" />
           </folding>
