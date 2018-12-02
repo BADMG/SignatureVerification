@@ -1,6 +1,5 @@
-dj_database_url==0.5.0
-Django==2.1
 Keras==2.2.0
+Django==2.1
 numpy==1.14.3
 tensorflow_gpu==1.10.0
 Pillow==5.3.0

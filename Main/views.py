@@ -11,7 +11,7 @@ from keras import backend as K
 import keras.models as models
 import tensorflow as tf
 import keras.layers as layers
-import cv2
+from PIL import Image
 
 
 class MainView(TemplateView):
@@ -44,9 +44,8 @@ class MainView(TemplateView):
         return loaded_model
 
     def create_img(self, path):
-        img = cv2.imread(path)
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        img = cv2.resize(img, (300, 150))
+        img = Image.open(path).convert('RGB')
+        img = np.array(img)
         img = img.reshape(1, 300, 150, 1)
         img = img / 255.
         return img
