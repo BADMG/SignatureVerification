@@ -1,15 +1,19 @@
 from django.db import models
+import time
+
 
 # Create your models here.
 
-
 def user_directory(instance, filename):
-    return str(instance.c_id) + "/" + filename
+	timestr = time.strftime("%Y%m%d-%H%M%S")
+	return str(instance.c_id) + "/Verification/" + str(timestr) + filename 
 
 
 #Path for Registration Images
 def img_directory(instance, filename):
-    return str(instance.customerdetails.c_id) + "/" + filename
+	timestr = time.strftime("%Y%m%d-%H%M%S")
+	return str(instance.customerdetails.c_id) + "/Registration/" + str(timestr) + filename
+
 
 
 class CustomerDetails(models.Model):

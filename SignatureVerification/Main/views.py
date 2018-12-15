@@ -19,21 +19,34 @@ class MainView(TemplateView):
     img_height = 150
     batch = 128
 
+    
     def modelCreator(self):
         modelA = models.Sequential()
-        modelA.add(layers.Conv2D(16, (3, 3), activation='relu', input_shape=(self.img_width, self.img_height, 1)))
+        modelA.add(layers.Conv2D(16, (3, 3), input_shape=(self.img_width, self.img_height, 1)))
+        modelA.add(layers.BatchNormalization())
+        modelA.add(layers.Activation("relu"))
         modelA.add(layers.MaxPooling2D((2, 2)))
-        modelA.add(layers.Dropout(0.2))
-        modelA.add(layers.Conv2D(32, (3, 3), activation='relu'))
+        modelA.add(layers.Conv2D(32, (3, 3)))
+        modelA.add(layers.BatchNormalization())
+        modelA.add(layers.Activation("relu"))
         modelA.add(layers.MaxPooling2D((2, 2)))
-        modelA.add(layers.Conv2D(64, (3, 3), activation='relu'))
+        modelA.add(layers.Conv2D(64, (3, 3)))
+        modelA.add(layers.BatchNormalization())
+        modelA.add(layers.Activation("relu"))
         modelA.add(layers.MaxPooling2D((2, 2)))
-        modelA.add(layers.Conv2D(128, (3, 3), activation='relu'))
+        modelA.add(layers.Conv2D(128, (3, 3)))
+        modelA.add(layers.BatchNormalization())
+        modelA.add(layers.Activation("relu"))
+        modelA.add(layers.MaxPooling2D((2, 2)))
+        modelA.add(layers.Conv2D(256, (3, 3)))
+        modelA.add(layers.BatchNormalization())
+        modelA.add(layers.Activation("relu"))
         modelA.add(layers.MaxPooling2D((2, 2)))
         modelA.add(layers.Flatten())
         modelA.add(layers.Dense(self.batch))
         modelA.add(layers.Reshape((1, self.batch)))
         return modelA
+    
 
     def load_model(self):
         K.clear_session()
@@ -117,6 +130,8 @@ class MainView(TemplateView):
                         avg = 0
                         total = len(Attachment.objects.filter(customerdetails__c_id=j.cleaned_data['c_id']))
                         for image in Attachment.objects.filter(customerdetails__c_id=j.cleaned_data['c_id']):
+                            print('Registration :'+image.file.path)
+                            print('Verification :'+VerificationDetails.objects.get(c_id=j.cleaned_data['c_id']).image.path)
                             vector_database = self.predict(image.file.path)
                             vector_image = self.predict(VerificationDetails.objects.get(c_id=j.cleaned_data['c_id']).image.path)
                             answer = np.sum(np.square(vector_image - vector_database))
@@ -130,7 +145,7 @@ class MainView(TemplateView):
                         print('Total Sum :' + str(sum))
                         print('Average :' + str(avg))
 
-                        if avg < 70:
+                        if avg < 1015:
                             answer = "The signature is real."
                         else:
                             answer = "The signature is forged."

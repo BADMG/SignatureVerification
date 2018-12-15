@@ -18,15 +18,13 @@ body {
 }
 .tfbox
 {
-	width:425px;
-	height:500px;
-	position:absolute;
-	left:0; right:0;
-    top:0; bottom:0;
-    margin:auto;
-	max-width:100%;
-    max-height:100%;
-    overflow:auto;
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  min-height: 500px;
+  min-width: 450px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 label[for="id_files"]
 {
@@ -34,10 +32,18 @@ label[for="id_files"]
 }
 .nav-item
 {
-	width:212.5px;
+	width:50%;
 }
 .nav-tabs > li > a
 {
    text-align:center;
 }
-
+.errorlist 
+{
+    float: left;
+    list-style: none;
+}
+.btn-info
+{
+   background-color: #ae285d!important;
+}

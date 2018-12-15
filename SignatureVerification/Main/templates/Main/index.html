@@ -13,6 +13,7 @@
 
 <body>
 <div class="bg"></div>
+<div style="position:fixed; top: 7%; width: 100%" align="center"><img style="height: 70px" src="{% static 'logo.png' %}"/></div>
 <div class="tfbox card outer">
 	
 		<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -31,15 +32,17 @@
 				<p class="h4 mb-4">Register a bank account</p>
                 {% csrf_token %}
                 {{ form.as_p }}
+                
                 <button class="btn btn-info btn-block my-4" name="register" type="submit">Register</button>
 				{% if reg_code == True %}
+          {% if form.errors == False %}
 				<p class="h4 mb-4">Registration successful</p>
-				{% endif %}
+				  {% endif %}
+        {% endif %}
 			</form>
 			</div>
 
 			<div class="tab-pane fade" id="verify" role="tabpanel" aria-labelledby="verify-tab">
-
                 <form method="post" class="text-center p-5", enctype="multipart/form-data">
                     <p class="h4 mb-4">Verify</p>
                     {% csrf_token %}
@@ -56,5 +59,4 @@
   <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
   
 </body>
-
 </html>
