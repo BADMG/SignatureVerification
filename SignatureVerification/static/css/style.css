@@ -28,6 +28,10 @@ body {
     max-height:100%;
     overflow:auto;
 }
+label[for="id_files"]
+{
+    display:none;
+}
 .nav-item
 {
 	width:212.5px;
