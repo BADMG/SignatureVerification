@@ -36,3 +36,15 @@ A system to accept a genuine signature of the customer and store it in the datab
 
 ![signatureverification](https://user-images.githubusercontent.com/29205181/50221245-89127780-03ba-11e9-879f-9e1ade4898c5.gif)
 
+### Contributors
+
+##### 1) [Saurabh Bora](https://github.com/enthussb)
+##### 2) [Daksh Pokar](https://github.com/dakshpokar)
+##### 3) [Aniket Gokhale](https://github.com/aniketgokhale)
+##### 4) [Atharva Dharmadhikari](https://github.com/Atharva13)
+##### 5) [Manas Shende](https://github.com/ms2607)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
