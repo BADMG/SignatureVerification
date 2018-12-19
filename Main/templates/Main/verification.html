@@ -15,30 +15,27 @@
 <div class="bg"></div>
 <div style="position:fixed; top: 7%; width: 100%" align="center"><img style="height: 70px" src="{% static 'logo.png' %}"/></div>
 <div class="tfbox card outer">
-
 		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
+                <form method="post" class="text-center p-5 daksh", enctype="multipart/form-data">
+                    <p class="h4 mb-4">Verify</p>
+                {% csrf_token %}
 
-
-			<div style="position:absolute; text-align: center; width:100%; align: center; top: 40%" class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
-
-                <p style="width: 100% ;display: block;" class="h4 mb-4">Prediction:<br>
-                {% for i in answers %}
-                    {{ i }}
-                    <br>
-                    {% endfor %}
-                </p>
-
+                {% for i in verforms %}
+                    {{ i.as_p }}
+                {% endfor %}
+					<button class="btn btn-info btn-block my-4" name="verify" type="submit">Verify</button>
+				</form>
 			</div>
 
 
-		</div>
 </div>
 
   <script type="text/javascript" src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
-
+  
 </body>
 
 </html>
