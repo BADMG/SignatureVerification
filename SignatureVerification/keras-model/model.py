@@ -82,7 +82,9 @@ for x in range(1, 5):
             img = cv2.imread(path + str(forge[i]))
             img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
             img = cv2.resize(img, (img_width,img_height))
+            cv2.imwrite('save1.png', img)
             retval, img = cv2.threshold(img, 0, 255, type = cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
+            cv2.imwrite('save2.png', img)
             forged_images.append(img)
             print("Encoded "+str(i)+" images.")
         
