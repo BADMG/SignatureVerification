@@ -24,14 +24,14 @@ A system to accept a genuine signature of the customer and store it in the datab
 
  * During testing -- 
       1. Register the customer using the real signatures (You can upload upto 5 signatures)
-      2. Click verify tab enter the number of forms(For bulk verification) 
+      2. Click verify tab to enter the number of forms(For bulk verification) 
       3. Now upload the images and enter the customer ID 
       4. Click verify to find the predictions
 
  * For training the model --
-      1. Download the provided source code and open keras-models folder.
-      2. Download the provided dataset and extract in folder keras-models such that "../SignatureVerification/keras-models/dataset"
-      3. Open `model.py` and set the current python working directory to keras-models/dataset
+      1. Download the provided source code and open keras-model folder.
+      2. Download the provided dataset and extract in folder keras-model such that "../SignatureVerification/keras-model/dataset"
+      3. Open `model.py` and set the current python working directory to keras-model/dataset
       4. Run the whole code
 
 ![signatureverification](https://user-images.githubusercontent.com/29205181/50221245-89127780-03ba-11e9-879f-9e1ade4898c5.gif)
