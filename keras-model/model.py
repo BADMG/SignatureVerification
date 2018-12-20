@@ -265,8 +265,7 @@ for t in np.arange(1, 3, 1):
     print(str((a1+a2)/2))
 
 
-
-'''
+## To find threshold
 values = []
 for t in np.arange(650, 1000, 1):
     x = 0
@@ -299,5 +298,5 @@ for t in np.arange(650, 1000, 1):
         
     a2 = z/len(l2)
     print(str((a1+a2)/2))
-'''
+
 modelu.save_weights("model_weights.h5")
