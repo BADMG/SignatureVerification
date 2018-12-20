@@ -4,3 +4,4 @@ Keras==2.2.0
 Django==2.1
 numpy==1.14.3
 tensorflow==1.12.0
+django-multiupload==0.5.2
