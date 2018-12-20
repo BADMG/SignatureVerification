@@ -5,6 +5,7 @@ import keras.models as models
 import numpy as np
 import tensorflow as tf
 from keras.regularizers import l2
+from matplotlib import pyplot as plt
 
 
 img_width = 300
@@ -54,7 +55,7 @@ model.summary()
 
 path_to_dataset = os.getcwd() + "\\dataset"
 #For training
-for x in range(1, 3):
+for x in range(1, 4):
     
     forge = []
     forge.extend(os.listdir(path_to_dataset+str(x)+ "\\forge"))
@@ -79,7 +80,7 @@ for x in range(1, 3):
         img = cv2.imread(path + str(forge[i]))
         img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.resize(img, (img_width,img_height))
-        img = img.reshape(img_width,img_height,1)
+        retval, img = cv2.threshold(img, 0, 255, type = cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
         forged_images.append(img)
         print("Encoded "+str(i)+" images.")
     
@@ -91,7 +92,7 @@ for x in range(1, 3):
         img = cv2.imread(path + str(real[i]))
         img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.resize(img, (img_width,img_height))
-        img = img.reshape(img_width,img_height,1)
+        retval, img = cv2.threshold(img, 0, 255, type = cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
         real_images.append(img)
         print("Encoded "+str(i)+" images.")
     
@@ -105,7 +106,7 @@ for x in range(1, 3):
                 img = cv2.imread(path + str(real[i]))
                 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
                 img = cv2.resize(img, (img_width,img_height))
-                img = img.reshape(img_width,img_height,1)
+                retval, img = cv2.threshold(img, 0, 255, type = cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
                 anchor_images.append(img)
         print("Encoded "+str(i)+" images. Added 5 times")
     
@@ -114,6 +115,10 @@ for x in range(1, 3):
     real_images = real_images / 255.
     forged_images = forged_images / 255.
     anchor_images = anchor_images / 255.
+    real_images = real_images.reshape(real_images.shape[0], img_width, img_height, 1)
+    forged_images = forged_images.reshape(forged_images.shape[0], img_width, img_height, 1)
+    anchor_images = anchor_images.reshape(anchor_images.shape[0], img_width, img_height, 1)
+
     model.fit([anchor_images,real_images,forged_images], y, epochs = 10, batch_size = 1)
 
 
@@ -129,19 +134,21 @@ for x in range(4, 5):
     real = np.array(real)
     
     forged_images = []
-    t = 0
-    t = 150
+    k = 0
+    t = 90
     if(x == 6):
         k = 0
         t = 288
+    if(x == 5):
+        k = 0
+        t = 1032
     
-
     path = 'dataset'+str(x)+'/forge/'
     for i in range(k,t):
         img = cv2.imread(path + str(forge[i]))
         img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.resize(img, (img_width,img_height))
-        img = img.reshape(img_width,img_height,1)
+        retval, img = cv2.threshold(img, 0, 255, type = cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
         forged_images.append(img)
         print("Encoded "+str(i)+" images.")
     
@@ -153,7 +160,7 @@ for x in range(4, 5):
         img = cv2.imread(path + str(real[i]))
         img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         img = cv2.resize(img, (img_width,img_height))
-        img = img.reshape(img_width,img_height,1)
+        retval, img = cv2.threshold(img, 0, 255, type = cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
         real_images.append(img)
         print("Encoded "+str(i)+" images.")
     
@@ -167,7 +174,7 @@ for x in range(4, 5):
                 img = cv2.imread(path + str(real[i]))
                 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
                 img = cv2.resize(img, (img_width,img_height))
-                img = img.reshape(img_width,img_height,1)
+                retval, img = cv2.threshold(img, 0, 255, type = cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
                 anchor_images.append(img)
         print("Encoded "+str(i)+" images. Added 5 times")
     
@@ -176,67 +183,72 @@ for x in range(4, 5):
     real_images = real_images / 255.
     forged_images = forged_images / 255.
     anchor_images = anchor_images / 255.
-
+    real_images = real_images.reshape(real_images.shape[0], img_width, img_height, 1)
+    forged_images = forged_images.reshape(forged_images.shape[0], img_width, img_height, 1)
+    anchor_images = anchor_images.reshape(anchor_images.shape[0], img_width, img_height, 1)
+    
 ##C1 image will be from our database
 ##C2 is current image which is to be checked for real or fake
 
 
 #Finding appropriate threshold by searching
+modelu = modelCreator()
+modelu.load_weights("model_weights.h5")
 
 values = []
 
 t = 3
 x = 0
 l = []
-k1 = 150
+k1 = 90
 k2 = 5
-for t in np.arange(1, 10, 1):
-    for i in range(0, k1):
-        if(i%k2 == 0):
-            print(str(int(i/k2)) + "\n")
-            y0 = modelu.predict(real_images[i].reshape(1,img_width,img_height,1))
-        y1 = modelu.predict(forged_images[i].reshape(1,img_width,img_height,1))
-        y_pred = np.sum(np.square((y0 - y1)))
-        l.append(y_pred)
-        if(y_pred>t):
-            x += 1
-        print(y_pred)
-    print(x)
+for i in range(0, k1):
+    if(i%k2 == 0):
+        print(str(int(i/k2)) + "\n")
+        y0 = modelu.predict(real_images[i].reshape(1,img_width,img_height,1))
+    y1 = modelu.predict(forged_images[i].reshape(1,img_width,img_height,1))
+    y_pred = np.sum(np.square((y0 - y1)))
+    l.append(y_pred)
+    if(y_pred>t):
+        x += 1
+    print(y_pred)
+print(x)
+
+z = 0
+for n in l:
+    z += n
     
-    z = 0
-    for n in l:
-        z += n
-        
-    a1 = z/len(l)
+a1 = z/len(l)
+
+################################################
+values.append(x)
+x = 0
+l2 = []
+for i in range(0, k1):
+    if(i%k2 == 0):
+        print(str(int(i/k2)) + "\n")
+        y0 = modelu.predict(real_images[i].reshape(1,img_width,img_height,1))
+    y1 = modelu.predict(real_images[i].reshape(1,img_width,img_height,1))
+    y_pred = np.sum(np.square((y0 - y1)))
+    l2.append(y_pred)
+    if(y_pred<t):
+        x += 1
+    print(y_pred)
+print(x)
+values[-1] = values[-1] + x
+
+print(values[-1])
+z = 0
+for t in l2:
+    z += t
     
-    ################################################
-    values.append(x)
-    x = 0
-    l2 = []
-    for i in range(0, k1):
-        if(i%k2 == 0):
-            print(str(int(i/k2)) + "\n")
-            y0 = modelu.predict(real_images[i].reshape(1,img_width,img_height,1))
-        y1 = modelu.predict(real_images[i].reshape(1,img_width,img_height,1))
-        y_pred = np.sum(np.square((y0 - y1)))
-        l2.append(y_pred)
-        if(y_pred<t):
-            x += 1
-        print(y_pred)
-    print(x)
-    values[-1] = values[-1] + x
-    
-    print(values[-1])
-    z = 0
-    for t in l2:
-        z += t
-        
-    a2 = z/len(l2)
-    print(str((a1+a2)/2))
+a2 = z/len(l2)
+print(str((a1+a2)/2))
 
 
 '''
 values = []
+for t in range(0, 150):
     x = 0
     for i in l:
         if(i>t):
