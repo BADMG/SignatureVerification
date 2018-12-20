@@ -40,9 +40,9 @@ A system to accept a genuine signature of the customer and store it in the datab
 
 ##### 1) [Saurabh Bora](https://github.com/enthussb) - [LinkedIn](https://linkedin.com/in/saurabh-bora)
 ##### 2) [Daksh Pokar](https://github.com/dakshpokar) - [LinkedIn](https://linkedin.com/in/dakshpokar)
-##### 3) [Aniket Gokhale](https://github.com/aniketgokhale)
-##### 4) [Atharva Dharmadhikari](https://github.com/Atharva13)
-##### 5) [Manas Shende](https://github.com/ms2607)
+##### 3) [Aniket Gokhale](https://github.com/aniketgokhale) - [LinkedIn](https://www.linkedin.com/in/aniket-g-552837b6/)
+##### 4) [Atharva Dharmadhikari](https://github.com/Atharva13) - [LinkedIn](https://www.linkedin.com/in/atharva-dharmadhikari/)
+##### 5) [Manas Shende](https://github.com/ms2607) - [LinkedIn](https://www.linkedin.com/in/manas-shende-6b6656126/)
 
 ## License
 
