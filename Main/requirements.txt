@@ -1,6 +1,6 @@
 tensorflow_gpu==1.10.0
 opencv_python==3.4.1.15
 Keras==2.2.0
-Django==2.1
+Django==2.1.9
 numpy==1.14.3
 tensorflow==1.12.1
